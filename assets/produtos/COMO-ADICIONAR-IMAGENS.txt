@@ -1,0 +1,12 @@
+IMAGENS DOS PRODUTOS
+
+1. Converta a imagem para WebP, se possível.
+2. Use nome sem espaço ou acento: iphone-16-pro-v1.webp
+3. Coloque o arquivo nesta pasta.
+4. Publique novamente o projeto TecnoShop-Loja no Cloudflare Pages.
+5. No painel, use o caminho:
+   /assets/produtos/iphone-16-pro-v1.webp
+
+O arquivo da imagem fica no site. O D1 guarda somente esse caminho textual.
+
+Ao substituir uma imagem, use um novo nome (v2, v3...) para evitar cache antigo.
