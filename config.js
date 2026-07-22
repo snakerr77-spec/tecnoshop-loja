@@ -1,4 +1,3 @@
-// Troque apenas este endereço depois de publicar o Worker no Cloudflare.
 window.TECNOSHOP_CONFIG = {
-  apiUrl: "https://api.seudominio.com"
+  apiUrl: "https://tecnoshop-api.snkmataxit.workers.dev"
 };
