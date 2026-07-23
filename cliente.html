@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#080808">
+  <title>Área exclusiva | TecnoShop Cerquilho</title>
+  <link rel="icon" href="assets/tecnoshop-logo.png">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("tecnoshop-color-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+  <link rel="stylesheet" href="cliente.css">
+  <script src="config.js?v=20260723-3"></script>
+  <script src="theme.js" defer></script>
+  <script src="cliente.js?v=20260723-3" defer></script>
+</head>
+<body>
+  <header class="private-header">
+    <a class="private-brand" href="index.html" aria-label="TecnoShop Cerquilho">
+      <img src="assets/tecnoshop-logo.png" alt="TecnoShop">
+      <span><strong>TECNO<span>SHOP</span></strong><small>ÁREA EXCLUSIVA</small></span>
+    </a>
+    <div class="private-header-actions">
+      <span class="secure-label"><i></i> LINK PRIVADO</span>
+      <button class="client-theme-toggle" data-theme-toggle type="button" aria-label="Alternar tema"><span data-theme-icon></span><b data-theme-label>Modo escuro</b></button>
+    </div>
+  </header>
+
+  <main class="client-shell">
+    <section class="access-state loading-state" id="clientLoading">
+      <span class="state-icon"><i></i></span>
+      <small>CARREGANDO SELEÇÃO</small>
+      <h1>Preparando sua área exclusiva.</h1>
+      <p>Estamos buscando os itens separados especialmente para você.</p>
+    </section>
+
+    <section class="access-state error-state" id="clientError" hidden>
+      <span class="state-icon">×</span>
+      <small>ACESSO INDISPONÍVEL</small>
+      <h1>Não foi possível abrir este link.</h1>
+      <p id="clientErrorMessage">O endereço pode ter expirado ou sido revogado.</p>
+      <a href="https://wa.me/5515996007266" target="_blank" rel="noreferrer">Falar com a TecnoShop</a>
+    </section>
+
+    <div class="client-content" id="clientContent" hidden>
+      <section class="client-hero">
+        <div class="hero-copy">
+          <span class="client-kicker">SELEÇÃO PERSONALIZADA</span>
+          <p class="client-welcome" id="clientWelcome">Olá!</p>
+          <h1 id="clientTitle">Sua seleção TecnoShop.</h1>
+          <p class="client-message" id="clientMessage"></p>
+          <div class="client-meta">
+            <span id="clientStatus"><i></i> Disponível</span>
+            <span id="clientExpires">Link com validade limitada</span>
+          </div>
+        </div>
+        <div class="hero-seal"><img src="assets/tecnoshop-logo.png" alt=""><span>PREPARADO<br>PARA VOCÊ</span></div>
+      </section>
+
+      <section class="selection-panel">
+        <header><div><span>ITENS SELECIONADOS</span><h2>Sua lista particular</h2></div><b id="clientItemCount">0 itens</b></header>
+        <div class="client-items" id="clientItems"></div>
+        <div class="client-empty" id="clientEmpty" hidden><span>＋</span><h3>Nenhum item nesta seleção</h3><p>Entre em contato com a loja para atualizar sua proposta.</p></div>
+      </section>
+
+      <section class="client-summary">
+        <div><span>ATENDIMENTO TECNOSHOP</span><h2>Gostou da seleção?</h2><p>Os valores e a disponibilidade podem ser confirmados diretamente com a equipe.</p></div>
+        <div class="summary-total"><small>VALOR ESTIMADO</small><strong id="clientTotal">Sob consulta</strong><span id="clientTotalNote">Confirme as condições de pagamento</span></div>
+        <a id="clientWhatsApp" href="https://wa.me/5515996007266" target="_blank" rel="noreferrer">Conversar no WhatsApp <b>→</b></a>
+      </section>
+
+      <aside class="privacy-note"><span>✓</span><p><strong>Este endereço é pessoal.</strong> Ele permite visualizar esta seleção sem criar uma conta. Não encaminhe o link para outras pessoas.</p></aside>
+    </div>
+  </main>
+
+  <footer class="private-footer"><span>© TecnoShop Cerquilho</span><b>Rua Ângelo Luvizotto, 401 • Centro</b><a href="index.html">Voltar para a loja</a></footer>
+</body>
+</html>
