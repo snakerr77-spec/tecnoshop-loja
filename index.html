@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mostruário digital da TecnoShop Cerquilho: smartphones, notebooks, acessórios e mobilidade elétrica.">
+  <meta name="theme-color" content="#070707">
+  <title>TecnoShop Cerquilho | Seu próximo upgrade</title>
+  <link rel="icon" href="assets/tecnoshop-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("tecnoshop-color-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+  <link rel="stylesheet" href="tecnoshop.css?v=20260723-clean">
+  <script src="config.js?v=20260723-clean"></script>
+  <script src="theme.js?v=20260723-clean" defer></script>
+  <script src="tecnoshop.js?v=20260723-clean" defer></script>
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+
+  <div class="announcement">
+    <div class="container announcement-inner">
+      <div class="announcement-item"><i class="icon" data-icon="card" data-size="15"></i><span>Condições em até 18x</span></div>
+      <div class="announcement-item announcement-center"><span class="live-dot"></span><span>Mostruário atualizado automaticamente</span></div>
+      <a href="https://wa.me/5515996007266" data-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." target="_blank" rel="noreferrer">WhatsApp oficial <strong>(15) 99600-7266</strong></a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="TecnoShop Cerquilho — início">
+        <span class="brand-mark"><img src="assets/tecnoshop-logo.png" alt=""></span>
+        <span class="brand-copy"><strong>TECNO<span>SHOP</span></strong><small>CERQUILHO</small></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#troca">Seu usado</a>
+        <a href="#loja">A loja</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle type="button" aria-label="Alternar tema">
+          <span class="theme-track"><span class="theme-thumb" data-theme-icon></span></span>
+          <span class="visually-hidden" data-theme-label>Modo escuro</span>
+        </button>
+        <button class="quote-button" id="openQuote" type="button" aria-label="Abrir lista com 0 itens">
+          <i class="icon" data-icon="bag" data-size="19"></i>
+          <span>Minha lista</span>
+          <b data-quote-count>0</b>
+        </button>
+        <a class="header-whatsapp" href="https://wa.me/5515996007266" data-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." target="_blank" rel="noreferrer">
+          Falar com a loja <i class="icon" data-icon="arrow" data-size="17"></i>
+        </a>
+        <button class="menu-button" id="openMenu" type="button" aria-label="Abrir menu"><i class="icon" data-icon="menu" data-size="23"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow"><span class="eyebrow-line"></span> TECNOLOGIA • CERQUILHO</div>
+          <h1>Tecnologia que acompanha o <em>seu ritmo.</em></h1>
+          <p>Descubra smartphones, notebooks, acessórios e mobilidade elétrica em um mostruário feito para você escolher com calma e confirmar tudo direto com a loja.</p>
+          <div class="hero-actions">
+            <a class="button button-primary magnetic" href="#produtos">Explorar produtos <i class="icon" data-icon="arrow"></i></a>
+            <a class="button button-secondary" href="https://wa.me/5515996007266" data-whatsapp="Olá! Gostaria de conhecer as ofertas disponíveis hoje na TecnoShop Cerquilho." target="_blank" rel="noreferrer">Ofertas no WhatsApp</a>
+          </div>
+          <div class="hero-metrics" aria-label="Diferenciais da TecnoShop">
+            <div><strong>18x</strong><span>no cartão*</span></div>
+            <div><strong>Trade-in</strong><span>seu iPhone na troca</span></div>
+            <div><strong>Local</strong><span>loja em Cerquilho</span></div>
+          </div>
+        </div>
+
+        <div class="hero-stage" id="heroStage" data-reveal data-reveal-delay="120">
+          <div class="stage-frame">
+            <img class="hero-scene hero-scene-dark" src="assets/hero-products-dark.webp" alt="Smartphone, notebook, smartwatch, fones e scooter elétrica em composição escura">
+            <img class="hero-scene hero-scene-light" src="assets/hero-products-light.webp" alt="Smartphone, notebook, smartwatch, fones e scooter elétrica em composição clara">
+            <div class="stage-vignette" aria-hidden="true"></div>
+
+            <div class="floating-card product-highlight" data-float="slow">
+              <span>SEMINOVO PREMIUM</span>
+              <strong>iPhone 15 Pro Max</strong>
+              <small>a partir de R$ 4.200*</small>
+            </div>
+            <div class="floating-card finance-highlight" data-float="fast">
+              <i class="icon" data-icon="card" data-size="18"></i>
+              <span><strong>Até 18x</strong><small>no cartão</small></span>
+            </div>
+            <div class="floating-card availability-highlight">
+              <span class="live-dot"></span>
+              <small>Catálogo conectado</small>
+            </div>
+          </div>
+          <div class="stage-caption"><span>01</span><p>Um mostruário vivo, atualizado pelo painel administrativo.</p></div>
+        </div>
+      </div>
+
+      <div class="container hero-bottom">
+        <span>*Consulte condições, estoque e valor final pelo número oficial.</span>
+        <a href="#produtos">Role para explorar <i class="icon" data-icon="arrow" data-size="16"></i></a>
+      </div>
+    </section>
+
+    <section class="brand-marquee" aria-label="Categorias disponíveis">
+      <div class="marquee-track" aria-hidden="true">
+        <span>IPHONES</span><i></i><span>ANDROID</span><i></i><span>MACBOOK</span><i></i><span>IPAD</span><i></i><span>SMARTWATCH</span><i></i><span>ACESSÓRIOS</span><i></i><span>MOBILIDADE</span><i></i>
+        <span>IPHONES</span><i></i><span>ANDROID</span><i></i><span>MACBOOK</span><i></i><span>IPAD</span><i></i><span>SMARTWATCH</span><i></i><span>ACESSÓRIOS</span><i></i><span>MOBILIDADE</span><i></i>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="produtos">
+      <div class="container">
+        <div class="section-heading catalog-heading" data-reveal>
+          <div>
+            <span class="section-kicker">CATÁLOGO ONLINE</span>
+            <h2>Escolha pelo estilo.<br><em>Confirme com a loja.</em></h2>
+            <p>Produtos cadastrados no painel aparecem aqui automaticamente. Use os filtros, veja os detalhes e envie sua seleção pelo WhatsApp.</p>
+          </div>
+          <div class="catalog-tools">
+            <div class="catalog-live"><span class="live-dot"></span><span data-product-total>Carregando produtos...</span></div>
+            <div class="search-box" role="search">
+              <i class="icon" data-icon="search" data-size="19"></i>
+              <input id="productSearch" type="search" placeholder="Buscar produto..." aria-label="Buscar produtos">
+              <button id="clearSearch" type="button" aria-label="Limpar busca" hidden><i class="icon" data-icon="close" data-size="16"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="category-tabs" id="categoryTabs" role="tablist" aria-label="Filtrar produtos por categoria" data-reveal></div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span><i class="icon" data-icon="search" data-size="30"></i></span>
+          <h3>Nenhum produto encontrado</h3>
+          <p>Tente outro nome ou volte para todos os produtos.</p>
+          <button id="showAllProducts" type="button">Ver catálogo completo</button>
+        </div>
+
+        <div class="catalog-cta" data-reveal>
+          <div class="catalog-cta-icon"><i class="icon" data-icon="phone" data-size="24"></i></div>
+          <div><small>PROCURANDO OUTRO MODELO?</small><strong>O estoque muda rápido. A equipe pode encontrar a opção certa para você.</strong></div>
+          <a href="https://wa.me/5515996007266" data-whatsapp="Olá! Não encontrei o modelo que procuro no catálogo. Podem me ajudar?" target="_blank" rel="noreferrer">Consultar disponibilidade <i class="icon" data-icon="arrow" data-size="18"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trade-section" id="troca">
+      <div class="container trade-layout">
+        <div class="trade-visual" data-reveal>
+          <div class="trade-image-wrap" data-tilt>
+            <img src="assets/trade-upgrade-premium.webp" alt="Troca de iPhone usado por um novo aparelho">
+            <div class="trade-shine" aria-hidden="true"></div>
+            <div class="trade-label"><span>TRADE-IN</span><strong>Seu usado vira upgrade.</strong></div>
+          </div>
+        </div>
+
+        <div class="trade-copy" data-reveal data-reveal-delay="100">
+          <span class="section-kicker">TROCA FACILITADA</span>
+          <h2>Seu iPhone atual pode abrir caminho para o próximo.</h2>
+          <p>Envie o modelo, a capacidade e o estado do aparelho. A equipe faz uma avaliação inicial e confirma o valor após analisar o dispositivo.</p>
+          <div class="trade-steps">
+            <article><b>01</b><div><strong>Conte qual é o aparelho</strong><span>Modelo, capacidade e conservação.</span></div></article>
+            <article><b>02</b><div><strong>Receba a avaliação</strong><span>A confirmação final acontece na loja.</span></div></article>
+            <article><b>03</b><div><strong>Escolha o upgrade</strong><span>Use o valor aprovado na negociação.</span></div></article>
+          </div>
+          <a class="button button-primary" href="https://wa.me/5515996007266" data-whatsapp="Olá! Quero avaliar meu iPhone para usar na troca. Meu modelo é: " target="_blank" rel="noreferrer">Avaliar meu aparelho <i class="icon" data-icon="arrow"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <span class="section-kicker">EXPERIÊNCIA SIMPLES</span>
+          <h2>Da descoberta ao atendimento,<br><em>sem complicação.</em></h2>
+          <p>O site mostra as opções. A equipe confirma estoque, condições e os detalhes finais.</p>
+        </div>
+        <div class="experience-grid">
+          <article data-reveal><span>01</span><div class="experience-icon"><i class="icon" data-icon="search" data-size="25"></i></div><h3>Explore</h3><p>Busque, filtre por categoria e abra os detalhes de cada produto.</p></article>
+          <article data-reveal data-reveal-delay="80"><span>02</span><div class="experience-icon"><i class="icon" data-icon="heart" data-size="25"></i></div><h3>Selecione</h3><p>Monte uma lista de interesse sem cadastro e sem pagamento online.</p></article>
+          <article data-reveal data-reveal-delay="160"><span>03</span><div class="experience-icon"><i class="icon" data-icon="phone" data-size="25"></i></div><h3>Converse</h3><p>Envie tudo pelo WhatsApp e receba o atendimento da loja.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="store-section" id="loja">
+      <div class="container store-layout">
+        <div class="store-copy" data-reveal>
+          <span class="section-kicker">LOJA FÍSICA</span>
+          <h2>Veja de perto.<br><em>Escolha melhor.</em></h2>
+          <p>Visite a TecnoShop no Centro de Cerquilho, tire suas dúvidas e conheça as opções disponíveis.</p>
+          <div class="store-info">
+            <article><span><i class="icon" data-icon="pin" data-size="21"></i></span><div><small>ENDEREÇO</small><strong>Rua Ângelo Luvizotto, 401</strong><b>Centro • Cerquilho — SP</b></div></article>
+            <article><span><i class="icon" data-icon="phone" data-size="21"></i></span><div><small>WHATSAPP OFICIAL</small><strong>(15) 99600-7266</strong><b>Confirme sempre por este número</b></div></article>
+            <article><span><i class="icon" data-icon="instagram" data-size="21"></i></span><div><small>INSTAGRAM</small><strong>@tecnoshopcerquilho</strong><b>Novidades, produtos e ofertas</b></div></article>
+          </div>
+          <div class="store-actions">
+            <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20%C3%82ngelo%20Luvizotto%2C%20401%2C%20Cerquilho%20SP" target="_blank" rel="noreferrer">Como chegar <i class="icon" data-icon="arrow"></i></a>
+            <a class="button button-secondary" href="https://www.instagram.com/tecnoshopcerquilho/" target="_blank" rel="noreferrer"><i class="icon" data-icon="instagram"></i> Ver Instagram</a>
+          </div>
+        </div>
+
+        <div class="map-card" data-reveal data-reveal-delay="100">
+          <iframe title="Mapa da TecnoShop Cerquilho" src="https://www.google.com/maps?q=Rua%20%C3%82ngelo%20Luvizotto%2C%20401%2C%20Centro%2C%20Cerquilho%20SP&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-overlay" aria-hidden="true"></div>
+          <div class="map-status"><span class="live-dot"></span> CENTRO DE CERQUILHO</div>
+          <a class="map-location" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua%20%C3%82ngelo%20Luvizotto%2C%20401%2C%20Cerquilho%20SP" target="_blank" rel="noreferrer">
+            <span><i class="icon" data-icon="pin" data-size="23"></i></span>
+            <div><small>TECNO SHOP CERQUILHO</small><strong>Abrir rota no Google Maps</strong></div>
+            <i class="icon" data-icon="arrow" data-size="18"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container faq-layout">
+        <div class="faq-intro" data-reveal>
+          <span class="section-kicker">DÚVIDAS RÁPIDAS</span>
+          <h2>Antes de escolher,<br><em>vale saber.</em></h2>
+          <p>Este site funciona como mostruário. Valores, estoque, pagamento, retirada e entrega são confirmados diretamente com a loja.</p>
+          <a href="https://wa.me/5515996007266" data-whatsapp="Olá! Tenho uma dúvida sobre os produtos da TecnoShop." target="_blank" rel="noreferrer">Tirar uma dúvida <i class="icon" data-icon="arrow" data-size="18"></i></a>
+        </div>
+        <div class="faq-list" data-reveal data-reveal-delay="100">
+          <details open><summary>Os preços do site são atualizados?<span>+</span></summary><p>Os valores cadastrados no painel aparecem no catálogo, mas podem mudar. Confirme sempre o preço final pelo WhatsApp.</p></details>
+          <details><summary>Posso usar meu iPhone como parte do pagamento?<span>+</span></summary><p>Sim. O valor depende do modelo, capacidade e estado do aparelho após avaliação.</p></details>
+          <details><summary>É possível parcelar?<span>+</span></summary><p>A loja divulga condições em até 18x. A condição final varia conforme produto e forma de pagamento.</p></details>
+          <details><summary>O site realiza pagamento online?<span>+</span></summary><p>Não. O site é um mostruário e cria uma lista de interesse. Toda negociação acontece diretamente com a TecnoShop.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio"><span class="brand-mark"><img src="assets/tecnoshop-logo.png" alt=""></span><span class="brand-copy"><strong>TECNO<span>SHOP</span></strong><small>CERQUILHO</small></span></a>
+        <p>Tecnologia, atendimento local e oportunidades para o seu próximo upgrade.</p>
+      </div>
+      <div><h3>Navegue</h3><a href="#produtos">Produtos</a><a href="#troca">Seu iPhone na troca</a><a href="#loja">Endereço</a></div>
+      <div><h3>Categorias</h3><a href="#produtos" data-category-link="iPhones">iPhones</a><a href="#produtos" data-category-link="Android">Android</a><a href="#produtos" data-category-link="Apple">Apple</a><a href="#produtos" data-category-link="Mobilidade">Mobilidade</a></div>
+      <div><h3>Atendimento</h3><a href="https://wa.me/5515996007266" data-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." target="_blank" rel="noreferrer">(15) 99600-7266</a><a href="https://www.instagram.com/tecnoshopcerquilho/" target="_blank" rel="noreferrer">@tecnoshopcerquilho</a><span>Rua Ângelo Luvizotto, 401</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 TecnoShop Cerquilho.</span><span>Mostruário online • Valores e estoque sujeitos à confirmação.</span></div>
+  </footer>
+
+  <button class="floating-whatsapp" type="button" data-open-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." aria-label="Falar pelo WhatsApp"><i class="icon" data-icon="phone" data-size="21"></i><span>WhatsApp</span></button>
+
+  <div class="mobile-bottom-bar">
+    <a href="#produtos"><i class="icon" data-icon="search" data-size="19"></i><span>Produtos</span></a>
+    <button id="openQuoteMobile" type="button"><span class="mobile-bag"><i class="icon" data-icon="bag" data-size="20"></i><b data-quote-count hidden>0</b></span><span>Minha lista</span></button>
+    <a href="https://wa.me/5515996007266" data-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." target="_blank" rel="noreferrer"><i class="icon" data-icon="phone" data-size="19"></i><span>WhatsApp</span></a>
+  </div>
+
+  <div class="overlay" id="menuOverlay" role="presentation" hidden>
+    <aside class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="drawer-head"><span>Menu</span><button type="button" data-close="menu" aria-label="Fechar menu"><i class="icon" data-icon="close"></i></button></div>
+      <nav aria-label="Menu móvel"><a href="#inicio">Início <i class="icon" data-icon="arrow"></i></a><a href="#produtos">Produtos <i class="icon" data-icon="arrow"></i></a><a href="#troca">Seu usado na troca <i class="icon" data-icon="arrow"></i></a><a href="#loja">A loja <i class="icon" data-icon="arrow"></i></a></nav>
+      <a class="button button-primary" href="https://wa.me/5515996007266" data-whatsapp="Olá! Vim pelo site da TecnoShop Cerquilho." target="_blank" rel="noreferrer">Falar no WhatsApp <i class="icon" data-icon="arrow"></i></a>
+    </aside>
+  </div>
+
+  <div class="overlay" id="quoteOverlay" role="presentation" hidden>
+    <aside class="quote-drawer" role="dialog" aria-modal="true" aria-label="Minha lista de interesse">
+      <div class="drawer-head"><div><span>Minha lista</span><small id="quoteSummary">0 produtos</small></div><button type="button" data-close="quote" aria-label="Fechar lista"><i class="icon" data-icon="close"></i></button></div>
+      <div class="quote-body" id="quoteBody"></div>
+      <div class="quote-footer"><p><i class="icon" data-icon="check" data-size="16"></i> Sem conta e sem pagamento no site. A loja confirma os detalhes.</p><a class="button button-primary disabled" id="sendQuote" href="https://wa.me/5515996007266" target="_blank" rel="noreferrer">Enviar lista no WhatsApp <i class="icon" data-icon="arrow"></i></a></div>
+    </aside>
+  </div>
+
+  <div class="overlay product-overlay" id="productOverlay" role="presentation" hidden>
+    <section class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-product-title">
+      <button class="modal-close" type="button" data-close="product" aria-label="Fechar detalhes"><i class="icon" data-icon="close"></i></button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-content">
+        <span class="modal-category" id="modalCategory"></span>
+        <h2 id="modal-product-title">Detalhes do produto</h2>
+        <p id="modalDescription"></p>
+        <ul id="modalSpecs"></ul>
+        <div class="modal-price"><small id="modalPriceLabel"></small><strong id="modalPrice"></strong><span>Estoque, valor e condições sujeitos à confirmação.</span></div>
+        <div class="modal-actions"><a class="button button-primary" id="modalWhatsApp" href="https://wa.me/5515996007266" target="_blank" rel="noreferrer">Quero este produto <i class="icon" data-icon="arrow"></i></a><button id="modalAdd" type="button">Adicionar à lista</button></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden><i class="icon" data-icon="check" data-size="18"></i><span id="toastMessage"></span></div>
+</body>
+</html>
